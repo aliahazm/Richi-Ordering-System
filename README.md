@@ -9,5 +9,5 @@
 5. Nur Farah Atiqah Binti Mohd Zahid (1817356)
 6. Nur Sabrina Fasha Binti Zaidi Sham (1813526)
 
-## Group Members
+## Introduction
 Currently, Richiamo Coffee's ordering system is still following the traditional way where customers have to order and make payment over the counter. Therefore, Richi Ordering System has been decided for this project. This system can help customers to make orders and payment just from their smartphones.
