@@ -16,3 +16,6 @@ Currently, Richiamo Coffee's ordering system is still following the traditional 
 1. To ensure the smoothness of ordering process by making it more efficient.
 2. To ensure that customer can order faster without having to go to the counter.
 3. To help shorten the time in completing each order.
+
+## Sequence Diagram
+![Sequence Diagram](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
