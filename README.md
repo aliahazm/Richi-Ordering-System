@@ -18,4 +18,4 @@ Currently, Richiamo Coffee's ordering system is still following the traditional 
 3. To help shorten the time in completing each order.
 
 ## Sequence Diagram
-![Sequence Diagram](https://github.com/aliahazm/Richi-Ordering-System/blob/main/Sequence%20Diagram.jpg width="250" height="250")
+<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Sequence%20Diagram.jpg" width="250" height="250">
