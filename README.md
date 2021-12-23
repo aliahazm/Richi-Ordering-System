@@ -20,6 +20,8 @@ Currently, Richiamo Coffee's ordering system is still following the traditional 
 ## Features and Functionalities
 ### Menu Page
 This page shows the list of menus that are available in Riachiamo Coffee which users can choose from the categories provided.
+![2021-12-23 21 38 04 xd adobe com 4a00b5848600](https://user-images.githubusercontent.com/55779808/147248288-984592fc-3063-46c7-aa85-f812ea3536d5.png)
+
 
 ### Order Tracking
 
