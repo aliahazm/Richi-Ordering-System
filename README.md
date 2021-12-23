@@ -20,9 +20,10 @@ Currently, Richiamo Coffee's ordering system is still following the traditional 
 ## Features and Functionalities
 ### Register and Login
 
-![2021-12-23 21 50 19 xd adobe com 3225024078f4](https://user-images.githubusercontent.com/55779808/147249661-bf254611-c594-4d74-9e73-ea7d608f903a.png) ![2021-12-23 21 50 57 xd adobe com a18ede4f8caa](https://user-images.githubusercontent.com/55779808/147249711-185289ad-1ab1-4496-aef3-e6447d4b0b33.png)
+![2021-12-23 21 50 19 xd adobe com 3225024078f4](https://user-images.githubusercontent.com/55779808/147249840-0414a599-b793-4379-a7a8-c67773a017bf.png) ![2021-12-23 21 50 57 xd adobe com a18ede4f8caa](https://user-images.githubusercontent.com/55779808/147249711-185289ad-1ab1-4496-aef3-e6447d4b0b33.png)
 
 ### Menu List
+
 
 Menu page shows the list of menus that are available in Riachiamo Coffee which users can choose from the categories provided.
 
