@@ -18,7 +18,11 @@ Currently, Richiamo Coffee's ordering system is still following the traditional 
 3. To help shorten the time in completing each order.
 
 ## Features and Functionalities
-### testing
+### Menu Page
+This page shows the list of menus that are available in Riachiamo Coffee which users can choose from the categories provided.
+
+### Order Tracking
+
 
 ## Sequence Diagram
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/SequenceDiagram.png">
