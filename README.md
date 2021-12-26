@@ -42,6 +42,7 @@ For the components:-
 8. Account
 9. Past order
 10. Confirmation page
+
 *might be more or less components in the future as we start doing some codes*
 ---
 ## Features and Functionalities
