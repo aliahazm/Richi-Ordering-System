@@ -1,5 +1,7 @@
-# INFO 4302 Mobile Application Development Group Project
-
+# INFO 4302 Mobile Application Development 
+# Group Project Part 1: Proposal
+# Project Title: Richi Ordering System
+## Group: G
 ## Group Members
 
 1. Muhammad Aidil Fahmiey Bin Osman (1819369) 
@@ -12,13 +14,35 @@
 ## Introduction
 Currently, Richiamo Coffee's ordering system is still following the traditional way where customers have to order and make payment over the counter. It is quite a hassle when customers have to wait for a long queue just to make an order and then wait again to receive the order. Therefore, Richi Ordering System has been decided for this project to help make ordering easier and efficient for the customers and also the staffs. This system can help customers to make orders just from their smartphones without having to go to the counter.
 
-## Objectives
+## Objective
 1. To ensure the smoothness of ordering process by making it more efficient.
 2. To ensure that customer can order faster without having to go to the counter.
 3. To help shorten the time in completing each order.
 
+## Features and Functionalities
+### Register and Login
+Users are allow to register an account in order to use this system and just login afterwards.  
+
+<img src="https://user-images.githubusercontent.com/55779808/147249840-0414a599-b793-4379-a7a8-c67773a017bf.png" width=20% height=20%> <img src="https://user-images.githubusercontent.com/55779808/147249711-185289ad-1ab1-4496-aef3-e6447d4b0b33.png" width=20% height=20%>
+
+### Menu List
+Menu page shows the list of menus that are available in Riachiamo Coffee which users can choose from the categories provided.
+
+<img src="https://user-images.githubusercontent.com/55779808/147248288-984592fc-3063-46c7-aa85-f812ea3536d5.png" width=20% height=20%> <img src="https://user-images.githubusercontent.com/55779808/147248480-a8abf0fd-5fb5-4b5c-b540-48cb41ab3688.png" width=20% height=20%>
+
+### Make Order
+Users can make order by clicking the any items that users want from the menu list and then confirm the order to submit it to the staffs.
+
+<img src="https://user-images.githubusercontent.com/55779808/147248983-893d4538-3bd2-418e-b389-bafb3ddc4889.png" width=20% height=20%> 
+
+### Order Tracking
+The current and past orders that the users make will be displayed in the My Order page. Users can track all their orders even from different outlets. 
+
+<img src="https://user-images.githubusercontent.com/55779808/147250171-649019e6-1b50-496f-b999-721c13e4d994.png" width=20% height=20%> 
+
 ## Navigation and Components
-For the navigation:-
+
+### For the navigation:-
 1. We will have a login and sign up page.
 2. After log in, user will be at homepage.
 3. There is three button at bottom navigation bar.
@@ -30,8 +54,8 @@ For the navigation:-
 9. There will be an order confirmation page that display the menu that being selected by the user before they can proceed to order it.
 10. **Account button** will redirect user to the user account detail page which display their private information.
 11. User can alter their information in the account page.
----
-For the components:-
+
+### For the components:-
 1. Styling
 2. Login
 3. Sign up
@@ -42,28 +66,10 @@ For the components:-
 8. Account
 9. Past order
 10. Confirmation page
----
-## Features and Functionalities
-### Register and Login
-Users are allow to register an account in order to use this system and just login afterwards.  
-
-![2021-12-23 21 50 19 xd adobe com 3225024078f4](https://user-images.githubusercontent.com/55779808/147249840-0414a599-b793-4379-a7a8-c67773a017bf.png) ![2021-12-23 21 50 57 xd adobe com a18ede4f8caa](https://user-images.githubusercontent.com/55779808/147249711-185289ad-1ab1-4496-aef3-e6447d4b0b33.png)
-
-### Menu List
-Menu page shows the list of menus that are available in Riachiamo Coffee which users can choose from the categories provided.
-
-![2021-12-23 21 38 04 xd adobe com 4a00b5848600](https://user-images.githubusercontent.com/55779808/147248288-984592fc-3063-46c7-aa85-f812ea3536d5.png) ![2021-12-23 21 39 48 xd adobe com 4aa123326d91](https://user-images.githubusercontent.com/55779808/147248480-a8abf0fd-5fb5-4b5c-b540-48cb41ab3688.png)
-
-### Make Order
-Users can make order by clicking the any items that users want from the menu list and then confirm the order to submit it to the staffs.
-
-![2021-12-23 21 43 02 xd adobe com 9a32e2e3385b](https://user-images.githubusercontent.com/55779808/147248983-893d4538-3bd2-418e-b389-bafb3ddc4889.png)
-
-### Order Tracking
-The current and past orders that the users make will be displayed in the My Order page. Users can track all their orders even from different outlets.  
-
-![2021-12-23 21 41 58 xd adobe com 4a7ca277c10e](https://user-images.githubusercontent.com/55779808/147250171-649019e6-1b50-496f-b999-721c13e4d994.png)
-
 
 ## Sequence Diagram
-<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/SequenceDiagram.png">
+<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/SequenceDiagram.png" width=50% height=50%>
+
+## References
+1. Pusher logo&gt;. Create a food ordering app in React Native - Part 1: Making an order. (n.d.). Retrieved December 28, 2021, from https://pusher.com/tutorials/food-ordering-app-react-native-part-1/ 
+2. Rufo, P. (2019, June 17). Design for the dark theme. Medium. Retrieved December 28, 2021, from https://medium.com/snapp-mobile/design-for-the-dark-theme-9a2185bbb1d5 
