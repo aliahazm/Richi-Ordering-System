@@ -38,9 +38,19 @@ Users can make order by clicking the any items that users want from the menu lis
 ### Order Tracking
 The current and past orders that the users make will be displayed in the My Order page. Users can track all their orders even from different outlets. 
 
-<img src="https://user-images.githubusercontent.com/55779808/147250171-649019e6-1b50-496f-b999-721c13e4d994.png" width=20% height=20%> 
+<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/My%20Order.png" width=20% height=20%> <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/My%20Order%20Sequence.png" width=20% height=20%> 
 
-### Edit Profile
+### Account and Edit Profile
+This Account page allows the user to view and edit account information.
+
+<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Account.png" width=20% height=20%> <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Account%20Sequence.png" width=20% height=20%> <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Account%20Sequence%202%20%E2%80%93%201.png" width=20% height=20%> 
+
+## Additional Page
+
+### Homepage
+Homepage allows user to view the sneakpeek of the current news or menu from Richi and view two recent orders from past orders at the bottom of the page.
+
+<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Home.png" width=20% height=20%>
 
 ## Navigation and Components
 
