@@ -42,7 +42,7 @@ The current and past orders that the users make will be displayed in the My Orde
 
 ## Navigation and Components
 
-### For the navigation:-
+### Navigation
 1. We will have a login and sign up page.
 2. After log in, user will be at homepage.
 3. There is three button at bottom navigation bar.
@@ -55,7 +55,7 @@ The current and past orders that the users make will be displayed in the My Orde
 10. **Account button** will redirect user to the user account detail page which display their private information.
 11. User can alter their information in the account page.
 
-### For the components:-
+### Components
 1. Styling
 2. Login
 3. Sign up
