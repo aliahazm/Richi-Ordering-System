@@ -87,3 +87,6 @@ Homepage allows user to view the sneakpeek of the current news or menu from Rich
 2. Rufo, P. (2019, June 17). Design for the dark theme. Medium. Retrieved December 28, 2021, from https://medium.com/snapp-mobile/design-for-the-dark-theme-9a2185bbb1d5 
 
 ## YouTube Presentation Link
+
+## Mock Up Link
+[Richi Ordering System Mock Up](https://xd.adobe.com/view/b67f2a9b-1de6-40ee-86bf-301dff9aaff5-e32c/)
