@@ -89,4 +89,6 @@ Homepage allows user to view the sneakpeek of the current news or menu from Rich
 ## YouTube Presentation Link
 
 ## Mock Up Link
+The user interface design and protyping has been designed and developed with Adobe XD software.
+
 [Richi Ordering System Mock Up](https://xd.adobe.com/view/b67f2a9b-1de6-40ee-86bf-301dff9aaff5-e32c/)
