@@ -68,16 +68,11 @@ Homepage allows user to view the sneakpeek of the current news or menu from Rich
 11. User can alter their information in the account page.
 
 ### Components
-1. Styling
-2. Login
-3. Sign up
-4. Homepage
-5. Order progress
-6. General menu
-7. Detail menu
-8. Account
-9. Past order
-10. Confirmation page
+1. We will be using a lot of **Button** components in this project.
+2. Next there will be a few **TextInput** components to capture some input from the user.
+3. We also planning on using some **Touchable** components in this project to make it more interactive.
+4. **Scroll View** components will be use in this project to display more content to the user.
+
 
 ## Sequence Diagram
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/SequenceDiagram.png" width=50% height=50%>
