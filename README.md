@@ -25,12 +25,12 @@ Users are allow to register an account in order to use this system and just logi
 
 <img src="https://user-images.githubusercontent.com/55779808/147249840-0414a599-b793-4379-a7a8-c67773a017bf.png" width=20% height=20%> <img src="https://user-images.githubusercontent.com/55779808/147249711-185289ad-1ab1-4496-aef3-e6447d4b0b33.png" width=20% height=20%>
 
-### Menu List
+### Menu Category and Listing
 Menu page shows the list of menus that are available in Riachiamo Coffee which users can choose from the categories provided.
 
 <img src="https://user-images.githubusercontent.com/55779808/147248288-984592fc-3063-46c7-aa85-f812ea3536d5.png" width=20% height=20%> <img src="https://user-images.githubusercontent.com/55779808/147248480-a8abf0fd-5fb5-4b5c-b540-48cb41ab3688.png" width=20% height=20%>
 
-### Make Order
+### Create Order
 Users can make order by clicking the any items that users want from the menu list and then confirm the order to submit it to the staffs.
 
 <img src="https://user-images.githubusercontent.com/55779808/147248983-893d4538-3bd2-418e-b389-bafb3ddc4889.png" width=20% height=20%> 
@@ -39,6 +39,8 @@ Users can make order by clicking the any items that users want from the menu lis
 The current and past orders that the users make will be displayed in the My Order page. Users can track all their orders even from different outlets. 
 
 <img src="https://user-images.githubusercontent.com/55779808/147250171-649019e6-1b50-496f-b999-721c13e4d994.png" width=20% height=20%> 
+
+### Edit Profile
 
 ## Navigation and Components
 
