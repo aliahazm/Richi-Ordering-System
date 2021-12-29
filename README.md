@@ -21,34 +21,34 @@ Currently, Richiamo Coffee's ordering system is still following the traditional 
 
 ## Features and Functionalities
 ### Register and Login
-Users are allow to register an account in order to use this system and just login afterwards.  
+Users are allowed to register an account in order to use this system and just login afterwards.  
 
 <img src="https://user-images.githubusercontent.com/55779808/147249840-0414a599-b793-4379-a7a8-c67773a017bf.png" width=20% height=20%> <img src="https://user-images.githubusercontent.com/55779808/147249711-185289ad-1ab1-4496-aef3-e6447d4b0b33.png" width=20% height=20%>
 
 ### Menu Category and Listing
-Menu page shows the list of menus that are available in Riachiamo Coffee which users can choose from the categories provided.
+Menu page shows the list of menus that are available in Richiamo Coffee from which users can choose in the categories provided.
 
 <img src="https://user-images.githubusercontent.com/55779808/147248288-984592fc-3063-46c7-aa85-f812ea3536d5.png" width=20% height=20%> <img src="https://user-images.githubusercontent.com/55779808/147248480-a8abf0fd-5fb5-4b5c-b540-48cb41ab3688.png" width=20% height=20%>
 
 ### Create Order
-Users can make order by clicking the any items that users want from the menu list and then confirm the order to submit it to the staffs.
+Users can place orders by clicking on any of the items from the menu list and then confirm the order before submitting it.
 
 <img src="https://user-images.githubusercontent.com/55779808/147248983-893d4538-3bd2-418e-b389-bafb3ddc4889.png" width=20% height=20%> 
 
 ### Order Tracking
-The current and past orders that the users make will be displayed in the My Order page. Users can track all their orders even from different outlets. 
+The current and past orders that the users have made will be displayed in the My Order page. Users can track all of their orders even from different outlets. 
 
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/My%20Order.png" width=20% height=20%> <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/My%20Order%20Sequence.png" width=20% height=20%> 
 
 ### Account and Edit Profile
-This Account page allows the user to view and edit account information.
+This Account page allows the user to view and edit their account information.
 
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Account.png" width=20% height=20%> <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Account%20Sequence.png" width=20% height=20%> <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Account%20Sequence%202%20%E2%80%93%201.png" width=20% height=20%> 
 
 ## Additional Page
 
 ### Homepage
-Homepage allows user to view the sneakpeek of the current news or menu from Richi and view two recent orders from past orders at the bottom of the page.
+Homepage allows user to view the sneak peek of the current news or menus from Richiamo Coffee and view two recent order history at the bottom of the page.
 
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Home.png" width=20% height=20%>
 
@@ -56,8 +56,8 @@ Homepage allows user to view the sneakpeek of the current news or menu from Rich
 
 ### Navigation
 1. We will have a login and sign up page.
-2. After log in, user will be at homepage.
-3. There is three button at bottom navigation bar.
+2. After logging in, user will be at homepage.
+3. There will be three buttons at the bottom navigation bar.
 4. **Home button** will return the user to the homepage.
 5. User can also check their current order and click the order received button if the order is being delivered.
 6. **Menu button** will redirect user to the menu page with few categories that can be choose.
@@ -70,7 +70,7 @@ Homepage allows user to view the sneakpeek of the current news or menu from Rich
 ### Components
 1. We will be using a lot of **Button** components in this project.
 2. Next there will be a few **TextInput** components to capture some input from the user.
-3. We also planning on using some **Touchable** components in this project to make it more interactive.
+3. We're also planning on using some **Touchable** components in this project to make it more interactive.
 4. **Scroll View** components will be use in this project to display more content to the user.
 
 
