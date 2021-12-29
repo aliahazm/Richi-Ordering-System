@@ -82,6 +82,7 @@ Homepage allows user to view the sneak peek of the current news or menus from Ri
 2. Rufo, P. (2019, June 17). Design for the dark theme. Medium. Retrieved December 28, 2021, from https://medium.com/snapp-mobile/design-for-the-dark-theme-9a2185bbb1d5 
 
 ## YouTube Presentation Link
+https://youtu.be/AhT93tzOUSo
 
 ## Mock Up Link
 The user interface design and protyping has been designed and developed with Adobe XD software. Additionally, the mock up protyping can be tested through the link provided as follows:
