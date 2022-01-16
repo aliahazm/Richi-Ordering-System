@@ -11,4 +11,7 @@ export default {
   indigo: "#7E8CE0",
   greyText: "#B3B3B3",
   greyCard: "#383838",
+  olive: "#6a7d5a",
+  darkGrey2: "#454545",
+  orange: "#ffc55c",
 };
