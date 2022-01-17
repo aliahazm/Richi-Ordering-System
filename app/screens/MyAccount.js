@@ -3,7 +3,7 @@ import { ScrollView, SafeAreaView, StyleSheet, View } from "react-native";
 
 import colors from "../config/colors";
 import AppText from "../components/AppText";
-import Dashboard from "../../components/dashboard";
+//import FetchListScreen from "../components/Profile";
 
 function MyAccount({ navigation }) {
   return (
@@ -26,7 +26,7 @@ function MyAccount({ navigation }) {
           }}
         >
           <AppText style={styles.welcome}>Welcome, Khairul! Account</AppText>
-          <Dashboard />
+          {/* <FetchListScreen /> */}
         </View>
       </ScrollView>
     </SafeAreaView>

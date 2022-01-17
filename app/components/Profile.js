@@ -47,6 +47,7 @@ if (this.state.isLoading) {
     </View>
   );
 }
+
 return (
   <ScrollView style={styles.wrapper}>
     {this.state.customer.map((res, i) => {

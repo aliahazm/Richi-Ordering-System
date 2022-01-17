@@ -29,7 +29,7 @@ export default class Dashboard extends Component {
     };
     return (
       <View style={styles.container}>
-        <Text style={styles.textStyle}>Hello, {this.state.displayName}</Text>
+        {/* <Text style={styles.textStyle}>Hello, {this.state.displayName}</Text> */}
         <Button color="#b28525" title="Logout" onPress={() => this.signOut()} />
       </View>
     );
