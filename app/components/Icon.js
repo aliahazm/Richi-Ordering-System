@@ -1,3 +1,5 @@
+//Author: Nur Sabrina Fasha binti Zaidi Sham (1813526)
+
 import React from "react";
 import { View } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";

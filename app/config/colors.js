@@ -1,3 +1,4 @@
+//Author(s): Nur Sabrina Fasha binti Zaidi Sham (1813526), Nor Aliah Binti Noor Azman (1814422)
 export default {
   black: "#000",
   white: "#fff",

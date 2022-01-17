@@ -1,3 +1,5 @@
+//Author: Nor Aliah Binti Noor Azman (1814422)
+
 import React from "react";
 import {
   ScrollView,

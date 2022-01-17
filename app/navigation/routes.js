@@ -1,3 +1,5 @@
+//Author: Nur Sabrina Fasha binti Zaidi Sham (1813526)
+
 export default Object.freeze({
   HOME: "Home",
   LOGIN: "Login",

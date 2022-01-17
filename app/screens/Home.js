@@ -1,3 +1,5 @@
+//Author: Nur Sabrina Fasha binti Zaidi Sham (1813526)
+
 import React from "react";
 import {
   ScrollView,
@@ -14,6 +16,8 @@ import AppButton from "../components/AppButton";
 import Icon from "../components/Icon";
 import AppCard from "../components/AppCard";
 import routes from "../navigation/routes";
+import Map from "../components/Map";
+import DisplayName from "../../components/DisplayName";
 
 function Home({ navigation }) {
   return (
@@ -36,7 +40,7 @@ function Home({ navigation }) {
             alignItems: "center",
           }}
         >
-          <AppText style={styles.welcome}>Welcome, Khairul!</AppText>
+          <DisplayName />
         </View>
         <ScrollView horizontal style={{ marginLeft: 15 }}>
           <AppButton
