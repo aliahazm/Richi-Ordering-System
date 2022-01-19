@@ -19,6 +19,7 @@ export default class DisplayName extends Component {
       displayName: firebase.auth().currentUser.displayName,
       uid: firebase.auth().currentUser.uid,
     };
+
     return (
       <View>
         <AppText style={styles.welcome}>
