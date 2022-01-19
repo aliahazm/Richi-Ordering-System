@@ -27,8 +27,8 @@ function MyOrder() {
       {/* Content */}
       <ScrollView style={styles.container}>
         <View>
-          <Text style={{ color: colors.white, fontSize: 20, padding: 8 }}>
-            Order In Progress
+          <Text style={{ color: colors.greyText, fontSize: 20, padding: 8, marginTop: 10 }}>
+            Order in progress..
           </Text>
           <View
             style={{
@@ -37,6 +37,7 @@ function MyOrder() {
               marginBottom: 10,
               padding: 20,
               flexDirection: "row",
+              margin: 10
             }}
           >
             <View>
@@ -56,7 +57,7 @@ function MyOrder() {
         </View>
 
         <View style={{ marginTop: 20 }}>
-          <Text style={{ color: colors.white, fontSize: 20, padding: 8 }}>
+          <Text style={{ color: colors.greyText, fontSize: 20, padding: 8 }}>
             Past Orders
           </Text>
           <MyOrderCard
@@ -91,7 +92,7 @@ function MyOrder() {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: colors.black,
-    flex: 1,
+    flex: 1
   },
 
   button: {
@@ -99,7 +100,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     marginLeft: 20,
     backgroundColor: colors.orange,
-    width: "100%",
+    width: "90%",
     borderRadius: 10,
     alignItems: "center",
   },
@@ -119,7 +120,7 @@ const styles = StyleSheet.create({
 
   subTitle: {
     color: colors.white,
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: "300",
     paddingTop: 5,
   },

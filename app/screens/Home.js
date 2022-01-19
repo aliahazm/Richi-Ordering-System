@@ -33,7 +33,6 @@ function Home({ navigation }) {
           flex: 1,
         }}
       >
-        <ImageSlider />
         <View
           style={{
             backgroundColor: colors.backgroundGrey,
@@ -42,6 +41,7 @@ function Home({ navigation }) {
         >
           <DisplayName />
         </View>
+        <ImageSlider />
         <ScrollView horizontal style={{ marginLeft: 15 }}>
           <AppButton
             title="Hot Beverages"
@@ -59,20 +59,23 @@ function Home({ navigation }) {
             onPress={() => navigation.navigate(routes.ICE_BLENDED_MENU)}
           ></AppButton>
         </ScrollView>
-        <View style={{ flexDirection: "row" }}>
-          <AppText style={styles.recentTitle}>Recent Orders</AppText>
-          <View style={{ marginLeft: -30 }}></View>
+
+       
           <TouchableOpacity
             onPress={() => navigation.navigate(routes.MY_ORDER)}
           >
+             <View style={{ flexDirection: "row" }}>
+            <AppText style={styles.recentTitle}>Recent Orders</AppText>
             <Icon
               name="navigate-next"
               size={45}
               backgroundColor={colors.backgroundGrey}
               iconColor={colors.greyText}
             />
+            </View>
           </TouchableOpacity>
-        </View>
+        
+
         <View style={{ marginHorizontal: 25 }}>
           <AppCard
             location="Richiamo - UIA Gombak"
@@ -108,7 +111,8 @@ const styles = StyleSheet.create({
   recentTitle: {
     color: colors.greyText,
     fontSize: 18,
-    marginHorizontal: 25,
+    //marginHorizontal: 25,
+    marginLeft: 25,
     marginVertical: 10,
     justifyContent: "center",
     textAlign: "justify",

@@ -17,7 +17,7 @@ const MenuNavigator = () => (
       component={MenuCategory}
       options={{
         title: "MENU",
-        headerTintColor: colors.olive,
+        headerTintColor: colors.black,
         headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
         headerStyle: { backgroundColor: colors.white },
         headerShown: true,
@@ -29,7 +29,7 @@ const MenuNavigator = () => (
       component={HotBeverageMenu}
       options={{
         title: "MENU",
-        headerTintColor: colors.olive,
+        headerTintColor: colors.black,
         headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
         headerStyle: { backgroundColor: colors.white },
         headerShown: true,
@@ -42,7 +42,7 @@ const MenuNavigator = () => (
       component={IceBlendedMenu}
       options={{
         title: "MENU",
-        headerTintColor: colors.olive,
+        headerTintColor: colors.black,
         headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
         headerStyle: { backgroundColor: colors.white },
         headerShown: true,
@@ -55,7 +55,7 @@ const MenuNavigator = () => (
       component={ColdBeverageMenu}
       options={{
         title: "MENU",
-        headerTintColor: colors.olive,
+        headerTintColor: colors.black,
         headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
         headerStyle: { backgroundColor: colors.white },
         headerShown: true,

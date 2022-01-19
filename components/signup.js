@@ -231,6 +231,7 @@ export default class Signup extends Component {
             resizeMode: "contain",
             height: 200,
             width: 400,
+            marginBottom: 50
           }}
           source={require("../assets/logo2.jpeg")}
         />
@@ -286,11 +287,10 @@ const styles = StyleSheet.create({
     flex: 1,
     display: "flex",
     flexDirection: "column",
-    //justifyContent: "center",
+    justifyContent: "center",
     alignItems: "center",
     padding: 45,
-    backgroundColor: "#fff",
-    paddingTop: 150,
+    backgroundColor: "#fff"
   },
   inputStyle: {
     width: "100%",

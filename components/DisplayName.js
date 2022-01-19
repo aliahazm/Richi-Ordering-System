@@ -36,9 +36,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: "bold",
     marginHorizontal: 25,
-    marginVertical: 10,
-    justifyContent: "center",
-    textAlign: "justify",
+    marginVertical: 20
   },
 
   textStyle: {

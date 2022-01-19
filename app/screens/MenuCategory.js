@@ -44,7 +44,7 @@ function MenuCategory({ navigation }) {
       }}
     >
       <View>
-        <Text style={styles.label}>Categories</Text>
+        <Text style={styles.label}>CATEGORIES</Text>
       </View>
       <FlatList
         style={{ flex: 1 }}
