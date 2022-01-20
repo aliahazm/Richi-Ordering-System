@@ -49,7 +49,7 @@ This Account page allows the user to view and edit their account information.
 
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/SequenceDiagram.png" width=50% height=50%>
 
-## Navigation
+### Navigation
 1. We will have a login and sign up page.
 2. After logging in, user will be at homepage.
 3. There will be three buttons at the bottom navigation bar.
@@ -62,7 +62,7 @@ This Account page allows the user to view and edit their account information.
 10. **Account button** will redirect user to the user account detail page which display their private information.
 11. User can alter their information in the account page.
 
-## Components
+### Components
 1. We will be using a lot of **Button** components in this project.
 2. Next there will be a few **TextInput** components to capture some input from the user.
 3. We're also planning on using some **Touchable** components in this project to make it more interactive.
@@ -76,6 +76,7 @@ This Account page allows the user to view and edit their account information.
 
 ### Home Page
 
+<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/HomeScreen1.jpg" width=20% height=20%> <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/HomeScreen2.jpg" width=20% height=20%>
 
 Home Page welcomes and allows user to view the sneak peek of the latest news, menus or promotions from Richiamo Coffee. Additionally, there shortcut buttons provided which will direct user to hot pick menu categories page at Richiamo Coffee which are Hot Beverages, Cold Beverages and Ice Blended Menu Page. At the bottom part of the page, there is 'Recent Orders' section to allow user to view two recent order history summary. There is also a button situated next to the 'Recent Orders' title, which if pressed by the user will navigate user to the My Orders page.
 
@@ -94,15 +95,22 @@ Home Page welcomes and allows user to view the sneak peek of the latest news, me
 ### My Account Page
 
 
-
 ## References
 1. Pusher logo&gt;. Create a food ordering app in React Native - Part 1: Making an order. (n.d.). Retrieved December 28, 2021, from https://pusher.com/tutorials/food-ordering-app-react-native-part-1/ 
 2. Rufo, P. (2019, June 17). Design for the dark theme. Medium. Retrieved December 28, 2021, from https://medium.com/snapp-mobile/design-for-the-dark-theme-9a2185bbb1d5 
+3. [YouTube Presentation Link](https://youtu.be/AhT93tzOUSo), from https://youtu.be/AhT93tzOUSo
+4. [Richi Ordering System Mock Up](https://xd.adobe.com/view/b67f2a9b-1de6-40ee-86bf-301dff9aaff5-e32c/), from https://xd.adobe.com/view/b67f2a9b-1de6-40ee-86bf-301dff9aaff5-e32c/
 
-## YouTube Presentation Link
-https://youtu.be/AhT93tzOUSo
+## Task Distributions
 
-## Mock Up Link
-The user interface design and protyping has been designed and developed with Adobe XD software. Additionally, the mock up protyping can be tested through the link provided as follows:
+| Group Member     | Mobile Application Development | Final Report     |
+| :---:        |    :----   |          :--- |
+|    Aidil   | Sign Up Page, Login Page, User Authentication, Components, Use of Media     | Richi Ordering System Screens (Sign Up Page, Login Page), Project Constraints |
+|    Ayunni  | Menu Pages, Firebase for Data Storage, Components, Use of Media      | Richi Ordering System Screens (Menu Page), Project Constraints |
+|    Aliah   | My Order Page, Styling, Components, Use of Media     | Richi Ordering System Screens (My Order Page), Project Constraints |
+|    Normunawwarah   | My Account Page, Outlet Page, APIs, Components, Use of Media    | Richi Ordering System Screens (Outlet Page, My Account Page), Project Constraints |
+|    Farah   | Menu Category Page, Firebase for Data Storage, Components, Use of Media      | Richi Ordering System Screens (Menu Page), Project Constraints |
+|    Sabrina   | Home Page , Navigations, Components, Use of Media       | Richi Ordering System Screens (Home Page), Project Constraints |
 
-[Richi Ordering System Mock Up](https://xd.adobe.com/view/b67f2a9b-1de6-40ee-86bf-301dff9aaff5-e32c/)
+
+
