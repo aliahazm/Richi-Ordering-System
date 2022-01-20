@@ -85,6 +85,7 @@ Home Page welcomes and allows user to view the sneak peek of the latest news, me
 2. [ImageSlider](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/components/ImageSlider.js) : This component is created to present an image slider to provide latest news, promotions and menus in Richiamo Coffee by user's sliding action.
 3. [AppButton](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/components/AppButton.js) &  [Shortcut Buttons](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/screens/Home.js) : AppButton is a component created which to make it reusable for the display of shortcut buttons in the page. This component is called at the Home screen code implementation by entering props such as title, color and onPress function. The shortcut buttons will navigate user to Hot Beverages, Cold Beverages and Ice Blended Menu Page, if pressed.
 4. [TouchableOpacity](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/screens/Home.js) : This component by react native is used in this page to make the 'Recent Orders' title touchable as a button. This button will navigate user to the My Order page if pressed.
+5. [Bottom Tab Navigation](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/navigation/AppNavigator.js) : This component is created as a tab navigator to allow user to easily navigate to the main functions of the application which are Home Page, Menu Page, Outlet Page and My Account Page.
 
 ### My Order Page
 
