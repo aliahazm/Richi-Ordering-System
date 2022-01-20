@@ -14,12 +14,12 @@
 ## Introduction
 Currently, Richiamo Coffee's ordering system is still following the traditional way where customers have to order and make payment over the counter. It is quite a hassle when customers have to wait for a long queue just to make an order and then wait again to receive the order. Therefore, Richi Ordering System has been decided for this project to help make ordering easier and efficient for the customers and also the staffs. This system can help customers to make orders just from their smartphones without having to go to the counter.
 
-## Objectives
+## Objectives 
 1. To ensure the smoothness of ordering process by making it more efficient.
 2. To ensure that customer can order faster without having to go to the counter.
 3. To help shorten the time in completing each order.
 
-## Features and Functionalities
+## Features and Functionalities of the Proposed Mobile Application
 ### Register and Login
 Users are allowed to register an account in order to use this system and just login afterwards.  
 
@@ -45,16 +45,11 @@ This Account page allows the user to view and edit their account information.
 
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Account.png" width=20% height=20%> <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Account%20Sequence.png" width=20% height=20%> <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Account%20Sequence%202%20%E2%80%93%201.png" width=20% height=20%> 
 
-## Additional Page
+## Interactions of the Proposed Mobile Application
 
-### Homepage
-Homepage allows user to view the sneak peek of the current news or menus from Richiamo Coffee and view two recent order history at the bottom of the page.
+<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/SequenceDiagram.png" width=50% height=50%>
 
-<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/Home.png" width=20% height=20%>
-
-## Navigation and Components
-
-### Navigation
+## Navigation
 1. We will have a login and sign up page.
 2. After logging in, user will be at homepage.
 3. There will be three buttons at the bottom navigation bar.
@@ -67,15 +62,38 @@ Homepage allows user to view the sneak peek of the current news or menus from Ri
 10. **Account button** will redirect user to the user account detail page which display their private information.
 11. User can alter their information in the account page.
 
-### Components
+## Components
 1. We will be using a lot of **Button** components in this project.
 2. Next there will be a few **TextInput** components to capture some input from the user.
 3. We're also planning on using some **Touchable** components in this project to make it more interactive.
 4. **Scroll View** components will be use in this project to display more content to the user.
 
+## Richi Ordering System Screens
 
-## Sequence Diagram
-<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/SequenceDiagram.png" width=50% height=50%>
+### Sign Up Page
+
+### Login Page 
+
+### Home Page
+
+
+Home Page welcomes and allows user to view the sneak peek of the latest news, menus or promotions from Richiamo Coffee. Additionally, there shortcut buttons provided which will direct user to hot pick menu categories page at Richiamo Coffee which are Hot Beverages, Cold Beverages and Ice Blended Menu Page. At the bottom part of the page, there is 'Recent Orders' section to allow user to view two recent order history summary. There is also a button situated next to the 'Recent Orders' title, which if pressed by the user will navigate user to the My Orders page.
+
+#### Navigation and Components
+1. [DisplayName](https://github.com/aliahazm/Richi-Ordering-System/blob/master/components/DisplayName.js) : This component is created to display welcome message to user, by calling user's name from the Firebase which has been input during the registration.
+2. [ImageSlider](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/components/ImageSlider.js) : This component is created to present an image slider to provide latest news, promotions and menus in Richiamo Coffee by user's sliding action.
+3. [AppButton](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/components/AppButton.js) &  [Shortcut Buttons](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/screens/Home.js) : AppButton is a component created which to make it reusable for the display of shortcut buttons in the page. This component is called at the Home screen code implementation by entering props such as title, color and onPress function. The shortcut buttons will navigate user to Hot Beverages, Cold Beverages and Ice Blended Menu Page, if pressed.
+4. [TouchableOpacity](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/screens/Home.js) : This component by react native is used in this page to make the 'Recent Orders' title touchable as a button. This button will navigate user to the My Order page if pressed.
+
+### My Order Page
+
+### Menu Page
+
+### Outlet Page
+
+### My Account Page
+
+
 
 ## References
 1. Pusher logo&gt;. Create a food ordering app in React Native - Part 1: Making an order. (n.d.). Retrieved December 28, 2021, from https://pusher.com/tutorials/food-ordering-app-react-native-part-1/ 
