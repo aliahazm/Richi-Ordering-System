@@ -1,5 +1,5 @@
 # INFO 4302 Mobile Application Development 
-# Group Project Part 1: Proposal
+# Group Project Report
 # Project Title: Richi Ordering System
 ## Group: G
 ## Group Members
@@ -49,7 +49,7 @@ This Account page allows the user to view and edit their account information.
 
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/SequenceDiagram.png" width=50% height=50%>
 
-### Navigation
+#### Navigation
 1. We will have a login and sign up page.
 2. After logging in, user will be at homepage.
 3. There will be three buttons at the bottom navigation bar.
@@ -62,7 +62,7 @@ This Account page allows the user to view and edit their account information.
 10. **Account button** will redirect user to the user account detail page which display their private information.
 11. User can alter their information in the account page.
 
-### Components
+#### Components
 1. We will be using a lot of **Button** components in this project.
 2. Next there will be a few **TextInput** components to capture some input from the user.
 3. We're also planning on using some **Touchable** components in this project to make it more interactive.
@@ -93,6 +93,17 @@ Home Page welcomes and allows user to view the sneak peek of the latest news, me
 ### Outlet Page
 
 ### My Account Page
+
+## Project Constraint
+
+In this section, an overview regarding the limitations that occurred during the development of the project will be defined. Some of the major constraints that occurred are as follows :
+
+1. The sudden changes made towards the end of project completion which results in not enough resources to deliver the promised quality.
+2. //
+3. //
+4. //
+5. //
+6. //
 
 
 ## References
