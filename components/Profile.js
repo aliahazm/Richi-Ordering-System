@@ -13,20 +13,15 @@ export default class Profile extends Component {
   }
 
   signOut = () => {
-    firebase
-      .auth()
-      .signOut()
-      .then(() => {
-        this.props.navigation.navigate("Login");
-      })
-      .catch((error) => this.setState({ errorMessage: error.message }));
-  };
+    firebase.auth().signOut().then(() => {
+      this.props.navigation.navigate('Login')
+    })
+    .catch(error => this.setState({ errorMessage: error.message }))
+  }
 
   render() {
     this.state = {
       displayName: firebase.auth().currentUser.displayName,
-      displayEmail: firebase.auth().currentUser.displayEmail,
-      mobileNumber: firebase.auth().currentUser.mobileNumber,
       uid: firebase.auth().currentUser.uid,
     };
     return (
@@ -58,7 +53,7 @@ const styles = StyleSheet.create({
   textStyle: {
     fontSize: 15,
     marginVertical: 20,
-    color: colors.greyText,
+    color: colors.white,
   },
   userImg: {
     height: 150,
