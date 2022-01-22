@@ -89,6 +89,8 @@ Home Page welcomes and allows user to view the sneak peek of the latest news, me
 
 ### My Order Page
 
+<img src=https://github.com/aliahazm/Richi-Ordering-System/blob/main/MyOrder-1.PNG width=20% height=20%>
+
 ### Menu Page
 
 ### Outlet Page
