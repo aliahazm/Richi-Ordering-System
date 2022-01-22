@@ -1,6 +1,6 @@
 //Author: Nor Aliah Binti Noor Azman (1814422)
 
-import React from "react";
+import React, {Component} from "react";
 import {
   ScrollView,
   SafeAreaView,
@@ -16,7 +16,13 @@ import {
 import colors from "../config/colors";
 import MyOrderCard from "../components/MyOrderCard";
 
-function MyOrder() {
+export default class Withdraw extends Component {
+
+  alert = () => {
+    alert("Thank you for your order!")
+  }
+
+  render(){
   return (
     <SafeAreaView
       style={{
@@ -49,7 +55,7 @@ function MyOrder() {
             </View>
 
             <View style={{ justifyContent: "flex-end" }}>
-              <TouchableOpacity style={styles.button}>
+              <TouchableOpacity style={styles.button} onPress={this.alert}>
                 <Text style={styles.buttonText}>Order Received</Text>
               </TouchableOpacity>
             </View>
@@ -88,6 +94,7 @@ function MyOrder() {
     </SafeAreaView>
   );
 }
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -125,7 +132,7 @@ const styles = StyleSheet.create({
     paddingTop: 5,
   },
 });
-export default MyOrder;
+
 
 // import React from "react";
 // import { ScrollView, SafeAreaView, StyleSheet, View } from "react-native";
