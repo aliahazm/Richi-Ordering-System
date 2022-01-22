@@ -71,7 +71,9 @@ This Account page allows the user to view and edit their account information.
 ## Richi Ordering System Screens
 
 ### Sign Up Page
+<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/signup.jpg" width=20% height=20%>
 
+Sign Up page help the new user to register a new account in order to gain access to the application. To register, user need to fill in a few information such as name, email, phone number and password. Below the text input field, there is button for user to pressed to able them to register. However, for the regular user that already have an account, there is a link below the button for them to click and they will be redirect to the login page.
 ### Login Page 
 
 ### Home Page
