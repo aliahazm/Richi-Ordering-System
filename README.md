@@ -74,7 +74,17 @@ This Account page allows the user to view and edit their account information.
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/signup.jpg" width=20% height=20%>
 
 Sign Up page help the new user to register a new account in order to gain access to the application. To register, user need to fill in a few information such as name, email, phone number and password. Below the text input field, there is button for user to pressed to able them to register. However, for the regular user that already have an account, there is a link below the button for them to click and they will be redirect to the login page.
+
+#### Navigation and Components
+1. [TouchableOpacity](https://github.com/aliahazm/Richi-Ordering-System/blob/master/components/signup.js) : This component by react native is used in this page to make the 'Sign Up' title touchable as a button. This button will navigate user to the Login page and execute the 'registerUser() function if pressed.
+2. [TextInput](https://github.com/aliahazm/Richi-Ordering-System/blob/master/components/signup.js) : This component write input field value from the user (name, email, password and phone number ). This component can be subscribe to the onChangeText events to read the user input.
+
 ### Login Page 
+<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/login.jpg" width=20% height=20%>
+
+#### Navigation and Components
+1. [TouchableOpacity](https://github.com/aliahazm/Richi-Ordering-System/blob/master/components/login.js) : This component by react native is used in this page to make the 'Sign Up' title touchable as a button. This button will navigate user to the Home page and execute the 'userLogin() function if pressed.
+2. [TextInput](https://github.com/aliahazm/Richi-Ordering-System/blob/master/components/login.js) : This component write input field value from the user (email, and password). This component can be subscribe to the onChangeText events to read the user input.
 
 ### Home Page
 
