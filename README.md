@@ -82,6 +82,8 @@ Sign Up page help the new user to register a new account in order to gain access
 ### Login Page 
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/login.jpg" width=20% height=20%>
 
+Login page help user to login to the applications with their credential such as email and password. However, if the user that are in the Login page did not have an account or want to create new account, they can pressed the link below the Sign In button to go to the Sign Up page.
+
 #### Navigation and Components
 1. [TouchableOpacity](https://github.com/aliahazm/Richi-Ordering-System/blob/master/components/login.js) : This component by react native is used in this page to make the 'Sign Up' title touchable as a button. This button will navigate user to the Home page and execute the 'userLogin() function if pressed.
 2. [TextInput](https://github.com/aliahazm/Richi-Ordering-System/blob/master/components/login.js) : This component write input field value from the user (email, and password). This component can be subscribe to the onChangeText events to read the user input.
