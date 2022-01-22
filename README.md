@@ -89,7 +89,13 @@ Home Page welcomes and allows user to view the sneak peek of the latest news, me
 
 ### My Order Page
 
-<img src=https://github.com/aliahazm/Richi-Ordering-System/blob/main/MyOrder-1.PNG width=20% height=20%>
+<img src=https://github.com/aliahazm/Richi-Ordering-System/blob/main/MyOrder-1.PNG width=20% height=20%> <img src=https://github.com/aliahazm/Richi-Ordering-System/blob/main/MyOrder-2.PNG width=20% height=20%>
+
+My Order Page allows users to see the details of their current order in progress and the details of their past orders. This page also allows users to give approval when they have received their order by clicking on the Order Received button.
+
+#### Components
+1.  [TouchableOpacity](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/screens/MyOrder.js) : This component by react native is used in this page to make the 'Order Received' as a button. This button triggers an alert with a message "Thank you for your order!".
+2.  [MyOrderCard](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/components/MyOrderCard.js) : This component is created for styling purposes to display the details of past orders.
 
 ### Menu Page
 
@@ -102,7 +108,7 @@ Home Page welcomes and allows user to view the sneak peek of the latest news, me
 In this section, an overview regarding the limitations that occurred during the development of the project will be defined. Some of the major constraints that occurred are as follows :
 
 1. The sudden changes made towards the end of project completion which results in not enough resources to deliver the promised quality.
-2. //
+2. The limitation in terms of skills in using React Native and JavaScript programming language as we learn it in only 4 months time especially for the database part.
 3. //
 4. //
 5. //
