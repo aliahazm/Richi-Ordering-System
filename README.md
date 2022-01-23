@@ -111,7 +111,8 @@ My Order Page allows users to see the details of their current order in progress
 1.  [TouchableOpacity](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/screens/MyOrder.js) : This component by react native is used in this page to make the 'Order Received' as a button. This button triggers an alert with a message "Thank you for your order!".
 2.  [MyOrderCard](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/components/MyOrderCard.js) : This component is created for styling purposes to display the details of past orders.
 
-### Menu Page
+### Menu Page"
+<img src=https://github.com/aliahazm/Richi-Ordering-System/blob/main/Menu_Category.jpg width=20% height=20%> <img src=https://github.com/aliahazm/Richi-Ordering-System/blob/main/Menu_List.jpg width=20% height=20%>
 
 ### Outlet Page
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/map.jpeg" width=20% height=20%>
