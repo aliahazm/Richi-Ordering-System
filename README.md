@@ -116,6 +116,9 @@ My Order Page allows users to see the details of their current order in progress
 
 Menu Page allows user to choose which category the user wants to order. When clicked on one of the categories, the user will be able to view the list of menus available and it will also display the list of name and price. Once the user click on one of the listed menu, it will display the button add quantity and the "Order Now" button will redirect to add to cart page and displays the total amount. Finally, the user will click "Place Order" button to send the order to the restaurant. 
 
+#### Navigation and Components
+1. [TouchableOpacity](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/screens/Home.js) : This component by react native is used in this page to make the 'Recent Orders' title touchable as a button. This button will navigate user to the My Order page if pressed.
+
 ### Outlet Page
 <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/map.jpeg" width=20% height=20%>
 
@@ -138,7 +141,7 @@ In this section, an overview regarding the limitations that occurred during the 
 
 1. The sudden changes made towards the end of project completion which results in not enough resources to deliver the promised quality.
 2. The limitation in terms of skills in using React Native and JavaScript programming language as we learn it in only 4 months time especially for the database part.
-3. //
+3. The features applied are mostly beyond from what we have learned in the class. The complexity of the features are hardly to apply as we have learned only the basics in a short period of time.
 4. //
 5. //
 6. //
