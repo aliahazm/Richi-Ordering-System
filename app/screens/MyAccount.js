@@ -5,6 +5,7 @@ import {
   StyleSheet,
   View,
   Button,
+  Alert,
 } from "react-native";
 
 import colors from "../config/colors";
