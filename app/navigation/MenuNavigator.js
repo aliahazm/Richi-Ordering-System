@@ -2,7 +2,6 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import colors from "../config/colors";
 import MenuCategory from "../screens/MenuCategory";
-
 const Stack = createNativeStackNavigator();
 
 const MenuNavigator = () => (
@@ -19,6 +18,7 @@ const MenuNavigator = () => (
         headerBackVisible: false,
       }}
     />
+
   </Stack.Navigator>
 );
 

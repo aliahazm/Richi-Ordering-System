@@ -3,12 +3,15 @@ import { NavigationContainer } from "@react-navigation/native";
 
 import navigationTheme from "./app/navigation/navigationTheme";
 import AppNavigator from "./app/navigation/AppNavigator";
+import { CartProvider } from "./app/components/CartContext";
 
 export default function App() {
   return (
-    <NavigationContainer theme={navigationTheme}>
-      {<AppNavigator />}
-    </NavigationContainer>
+    <CartProvider>
+      <NavigationContainer theme={navigationTheme}>
+        {<AppNavigator />}
+      </NavigationContainer>
+    </CartProvider>
   );
 }
 

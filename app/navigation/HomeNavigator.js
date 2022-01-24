@@ -5,6 +5,7 @@ import Home from "../screens/Home";
 import HotBeverageMenu from "../screens/HotBeverageMenu";
 import ColdBeverageMenu from "../screens/ColdBeverageMenu";
 import IceBlendedMenu from "../screens/IceBlendedMenu";
+import ProductDetails from "../screens/ProductDetails";
 import MyOrder from "../screens/MyOrder";
 
 const Stack = createNativeStackNavigator();
@@ -54,6 +55,18 @@ const HomeNavigator = () => (
         headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
         headerStyle: { backgroundColor: colors.white },
         headerBackVisible: true,
+      }}
+    />
+    <Stack.Screen
+      name="ProductDetails"
+      component={ProductDetails}
+      options={{
+        title: "PRODUCT DETAILS",
+        headerTintColor: colors.olive,
+        headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
+        headerStyle: { backgroundColor: colors.white },
+        headerShown: true,
+        headerBackVisible: false,
       }}
     />
     <Stack.Screen
