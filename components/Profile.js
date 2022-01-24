@@ -1,5 +1,14 @@
 import React, { Component } from "react";
-import { StyleSheet, View, Text, Button, Image } from "react-native";
+import {
+  StyleSheet,
+  View,
+  Text,
+  Button,
+  Image,
+  TextInput,
+  Alert,
+} from "react-native";
+import { Colors } from "react-native/Libraries/NewAppScreen";
 import AppText from "../app/components/AppText";
 import colors from "../app/config/colors";
 import firebase from "../Database/firebase";
@@ -9,15 +18,19 @@ export default class Profile extends Component {
     super();
     this.state = {
       uid: "",
+      email: "",
     };
   }
 
   signOut = () => {
-    firebase.auth().signOut().then(() => {
-      this.props.navigation.navigate('Login')
-    })
-    .catch(error => this.setState({ errorMessage: error.message }))
-  }
+    firebase
+      .auth()
+      .signOut()
+      .then(() => {
+        this.props.navigation.navigate("Login");
+      })
+      .catch((error) => this.setState({ errorMessage: error.message }));
+  };
 
   render() {
     this.state = {
@@ -25,18 +38,81 @@ export default class Profile extends Component {
       uid: firebase.auth().currentUser.uid,
     };
     return (
-      <View style={styles.container}>
-        <Image
-          style={styles.userImg}
-          source={require("../assets/profile.jpeg")}
-        />
+      <>
+        <View style={styles.container}>
+          <Image
+            style={styles.userImg}
+            source={require("../assets/profile.jpeg")}
+          />
+        </View>
+        <View style={styles.title}>
+          <AppText style={styles.textStyle}>Name</AppText>
+          <TextInput
+            style={{
+              marginHorizontal: 19,
+              backgroundColor: colors.greyCard,
+              padding: 15,
+              borderRadius: 50,
+              marginBottom: 20,
+            }}
+            placeholder={this.state.displayName}
+            placeholderTextColor={colors.white}
+            value={this.state.word}
+            onChangeText={(word) => this.setState({ word })}
+          />
+        </View>
 
-        <AppText style={styles.textStyle}>
-          Name: {this.state.displayName}
-        </AppText>
+        <View style={styles.title}>
+          <AppText style={styles.textStyle}>Email</AppText>
+          <TextInput
+            style={{
+              marginHorizontal: 19,
+              backgroundColor: colors.greyCard,
+              padding: 15,
+              borderRadius: 50,
+              marginBottom: 20,
+            }}
+            placeholder="muna@gmail.com"
+            placeholderTextColor={colors.white}
+            value={this.state.word}
+            onChangeText={(word) => this.setState({ word })}
+          />
+        </View>
 
-        <Button color="#b28525" title="Logout" onPress={() => this.signOut()} />
-      </View>
+        <View style={styles.title}>
+          <AppText style={styles.textStyle}>Password</AppText>
+          <TextInput
+            style={{
+              marginHorizontal: 19,
+              backgroundColor: colors.greyCard,
+              padding: 15,
+              borderRadius: 50,
+              marginBottom: 20,
+            }}
+            placeholder="●●●●●●●●"
+            placeholderTextColor={colors.white}
+            value={this.state.word}
+            onChangeText={(word) => this.setState({ word })}
+          />
+        </View>
+
+        <View style={styles.title}>
+          <AppText style={styles.textStyle}>Mobile Number</AppText>
+          <TextInput
+            style={{
+              marginHorizontal: 19,
+              backgroundColor: colors.greyCard,
+              padding: 15,
+              borderRadius: 50,
+              marginBottom: 20,
+            }}
+            placeholder="0123456789"
+            placeholderTextColor={colors.white}
+            value={this.state.word}
+            onChangeText={(word) => this.setState({ word })}
+          />
+        </View>
+      </>
     );
   }
 }
@@ -50,10 +126,16 @@ const styles = StyleSheet.create({
     padding: 35,
     backgroundColor: colors.backgroundGrey,
   },
+  title: {
+    flex: 1,
+    marginHorizontal: 10,
+    backgroundColor: colors.backgroundGrey,
+  },
   textStyle: {
-    fontSize: 15,
-    marginVertical: 20,
-    color: colors.white,
+    fontSize: 16,
+    marginVertical: 10,
+    color: colors.greyText,
+    marginHorizontal: 25,
   },
   userImg: {
     height: 150,
