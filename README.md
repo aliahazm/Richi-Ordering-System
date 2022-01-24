@@ -129,9 +129,9 @@ Outlet page allows user to see the location of outlet available that may be ease
 2.  [Callout](https://github.com/aliahazm/Richi-Ordering-System/blob/master/components/map.js) : This components by react native maps is used in this page to show the name of the outlet once user clicked on the pinned location.
 
 ### My Account Page
-<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/profile.jpeg" width=20% height=20%>
+<img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/MyAccount-1.PNG" width=20% height=20%> <img src="https://github.com/aliahazm/Richi-Ordering-System/blob/main/MyAccount-2.PNG" width=20% height=20%>
 
-My account page will display all information that related to the user such as profile photo, name, etc. There’s also Logout button that can use to end the user session and then redirect them to the login page. 
+My account page displays all information that related to the user such as profile photo, name, etc and also enables users to update their details. There’s also Logout button that can use to end the user session and then redirect them to the login page. 
 
 #### Components
 1. [TouchableOpacity](https://github.com/aliahazm/Richi-Ordering-System/blob/75fc513a4561ce4dfbb4bc9e7222dafcf8ef6ff7/components/Profile.js) : this component by react native is used in this page to make the ‘Logout’ button title touchable as a button. This button will end user session and navigate them to the login page. 
