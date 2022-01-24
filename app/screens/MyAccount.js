@@ -1,8 +1,17 @@
 import React from "react";
-import { ScrollView, SafeAreaView, StyleSheet, View } from "react-native";
+import {
+  ScrollView,
+  SafeAreaView,
+  StyleSheet,
+  View,
+  Button,
+  Alert,
+} from "react-native";
 
 import colors from "../config/colors";
 import AppText from "../components/AppText";
+import Profile from "../../components/Profile";
+import routes from "../navigation/routes";
 
 function MyAccount({ navigation }) {
   return (
@@ -21,10 +30,33 @@ function MyAccount({ navigation }) {
         <View
           style={{
             backgroundColor: colors.backgroundGrey,
-            alignItems: "center",
           }}
         >
-          <AppText style={styles.welcome}>Welcome, Khairul! Account</AppText>
+          <Profile />
+          <View
+            style={{
+              flex: 1,
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <Button
+              color="green"
+              title="Update"
+              onPress={() =>
+                Alert.alert(
+                  "Update Successful",
+                  "Your profile has been updated!"
+                )
+              }
+            />
+            <Button
+              color="red"
+              title="Logout"
+              onPress={() => navigation.navigate(routes.LOGIN)}
+            />
+          </View>
         </View>
       </ScrollView>
     </SafeAreaView>

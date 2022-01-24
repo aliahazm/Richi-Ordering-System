@@ -1,3 +1,5 @@
+//Author: Nur Sabrina Fasha binti Zaidi Sham (1813526)
+
 import React from "react";
 import { View, Image, ScrollView, Dimensions, Animated } from "react-native";
 import colors from "../config/colors";

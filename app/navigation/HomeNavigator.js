@@ -1,3 +1,5 @@
+//Author: Nur Sabrina Fasha binti Zaidi Sham (1813526)
+
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import colors from "../config/colors";

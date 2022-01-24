@@ -1,3 +1,5 @@
+//Author: Nur Sabrina Fasha binti Zaidi Sham (1813526)
+
 import { Platform } from "react-native";
 
 import colors from "./colors";

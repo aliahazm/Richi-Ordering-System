@@ -3,17 +3,17 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import colors from "../config/colors";
-import MyAccount from "../screens/MyAccount";
+import Outlet from "../screens/Outlet";
 
 const Stack = createNativeStackNavigator();
 
-const AccountNavigator = () => (
+const OutletNavigator = () => (
   <Stack.Navigator presentation="modal" animationTypeForReplace="pop">
     <Stack.Screen
-      name="MyAccount"
-      component={MyAccount}
+      name="Outlet"
+      component={Outlet}
       options={{
-        title: "MY ACCOUNT",
+        title: "OUTLETS",
         headerTintColor: colors.darkGrey,
         headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
         headerStyle: { backgroundColor: colors.white },
@@ -25,4 +25,4 @@ const AccountNavigator = () => (
   </Stack.Navigator>
 );
 
-export default AccountNavigator;
+export default OutletNavigator;

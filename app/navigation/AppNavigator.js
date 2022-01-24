@@ -1,11 +1,15 @@
+//Author: Nur Sabrina Fasha binti Zaidi Sham (1813526)
+
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Fontisto } from "@expo/vector-icons";
+import { MaterialIcons } from "@expo/vector-icons";
 
 import MenuNavigator from "./MenuNavigator";
 import HomeNavigator from "./HomeNavigator";
 import AccountNavigator from "./AccountNavigator";
+import OutletNavigator from "./OutletNavigator";
 
 const Tab = createBottomTabNavigator();
 
@@ -27,6 +31,17 @@ const AppNavigator = () => (
       options={{
         tabBarIcon: ({ color, size }) => (
           <Fontisto name="coffeescript" color={color} size={20} />
+        ),
+        headerShown: false,
+      }}
+    />
+
+    <Tab.Screen
+      name="Outlet"
+      component={OutletNavigator}
+      options={{
+        tabBarIcon: ({ color, size }) => (
+          <MaterialIcons name="location-on" color={color} size={27} />
         ),
         headerShown: false,
       }}

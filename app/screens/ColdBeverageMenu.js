@@ -1,11 +1,11 @@
-import React, { useEffect, useState, useContext } from "react";
-import { 
-  ScrollView, 
-  SafeAreaView, 
-  StyleSheet, 
-  SectionList, 
-  Text, 
-  View
+import React from "react";
+import {
+  ScrollView,
+  SafeAreaView,
+  StyleSheet,
+  SectionList,
+  Text,
+  View,
 } from "react-native";
 
 import colors from "../config/colors";
@@ -76,39 +76,39 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     marginHorizontal: 10,
   },
-  sectionHeader:{
+  sectionHeader: {
     color: colors.white,
     margin: 10,
-    fontSize:18,
+    fontSize: 18,
     marginTop: 20,
-    fontWeight: '600',
+    fontWeight: "600",
   },
-  item:{
-    flexDirection: 'column',
-    borderWidth:1,
+  item: {
+    flexDirection: "column",
+    borderWidth: 1,
     borderRadius: 10,
     backgroundColor: colors.white,
     padding: 15,
     margin: 5,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems:'center'
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
   },
-  name:{
-    fontWeight: '700',
+  name: {
+    fontWeight: "700",
     fontSize: 18,
     color: colors.anotherGrey,
-    margin:3,
+    margin: 3,
   },
   price: {
-    margin:3,
-    marginTop:0,
-    fontSize:15,
+    margin: 3,
+    marginTop: 0,
+    fontSize: 15,
     color: colors.anotherGrey,
   },
-  addButton:{
-    alignItems:'center',
-    justifyContent:'center',
+  addButton: {
+    alignItems: "center",
+    justifyContent: "center",
     margin: 10,
     borderColor: colors.anotherGrey,
     height: 40,
@@ -118,20 +118,73 @@ const styles = StyleSheet.create({
   },
   buttonStyle: {
     backgroundColor: colors.indigo,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
   },
-  orderButton:{
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: '50%',
+  orderButton: {
+    justifyContent: "center",
+    alignItems: "center",
+    width: "50%",
     padding: 10,
     marginVertical: 10,
   },
-  buttonText:{
-    fontWeight: '700',
+  buttonText: {
+    fontWeight: "700",
     fontSize: 17,
     color: colors.white,
   }
 });
 export default ColdBeverageMenu;
+
+// import React from "react";
+// import { ScrollView, SafeAreaView, StyleSheet, View } from "react-native";
+
+// import colors from "../config/colors";
+// import AppText from "../components/AppText";
+
+// function ColdBeverageMenu(props) {
+//   return (
+//     <SafeAreaView
+//       style={{
+//         backgroundColor: colors.backgroundGrey,
+//         flex: 1,
+//       }}
+//     >
+//       <ScrollView
+//         style={{
+//           backgroundColor: colors.backgroundGrey,
+//           flex: 1,
+//         }}
+//       >
+//         <View
+//           style={{
+//             backgroundColor: colors.backgroundGrey,
+//             alignItems: "center",
+//           }}
+//         >
+//           <AppText style={styles.welcome}>
+//             Welcome, Khairul! Cold Beverage Menu
+//           </AppText>
+//         </View>
+//       </ScrollView>
+//     </SafeAreaView>
+//   );
+// }
+
+// const styles = StyleSheet.create({
+//   container: {
+//     backgroundColor: colors.backgroundGrey,
+//     flex: 1,
+//   },
+
+//   welcome: {
+//     color: colors.white,
+//     fontSize: 30,
+//     fontWeight: "bold",
+//     marginHorizontal: 25,
+//     marginVertical: 10,
+//     justifyContent: "center",
+//     textAlign: "justify",
+//   },
+// });
+// export default ColdBeverageMenu;
