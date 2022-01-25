@@ -144,6 +144,8 @@ In this section, an overview regarding the limitations that occurred during the 
 1. The sudden changes made towards the end of project completion which results in not enough resources to deliver the promised quality.
 2. The limitation in terms of skills in using React Native and JavaScript programming language as we learn it in only 4 months time especially for the database part.
 3. The features applied are mostly beyond from what we have learned in the class. The complexity of the features are hardly to apply as we have learned only the basics in a short period of time.
+4. Having to encounter many different errors and detecting the flaws within the many lines of codes, before having them work on the screen.
+5. Working remotely in a team was also quite challenging, as we were not able to freely meet up and have had to have our discussions and do our work fully virtually.
 
 ## References
 1. Pusher logo&gt;. Create a food ordering app in React Native - Part 1: Making an order. (n.d.). Retrieved December 28, 2021, from https://pusher.com/tutorials/food-ordering-app-react-native-part-1/ 
