@@ -135,6 +135,7 @@ My account page displays all information that related to the user such as profil
 
 #### Components
 1. [TouchableOpacity](https://github.com/aliahazm/Richi-Ordering-System/blob/75fc513a4561ce4dfbb4bc9e7222dafcf8ef6ff7/components/Profile.js) : this component by react native is used in this page to make the ‘Logout’ button title touchable as a button. This button will end user session and navigate them to the login page. 
+2. [Text Input](https://github.com/aliahazm/Richi-Ordering-System/blob/75fc513a4561ce4dfbb4bc9e7222dafcf8ef6ff7/components/Profile.js) : This component allow users to update the information such as name, mobile number and email.
 
 ## Project Constraint
 
@@ -143,10 +144,6 @@ In this section, an overview regarding the limitations that occurred during the 
 1. The sudden changes made towards the end of project completion which results in not enough resources to deliver the promised quality.
 2. The limitation in terms of skills in using React Native and JavaScript programming language as we learn it in only 4 months time especially for the database part.
 3. The features applied are mostly beyond from what we have learned in the class. The complexity of the features are hardly to apply as we have learned only the basics in a short period of time.
-4. //
-5. //
-6. //
-
 
 ## References
 1. Pusher logo&gt;. Create a food ordering app in React Native - Part 1: Making an order. (n.d.). Retrieved December 28, 2021, from https://pusher.com/tutorials/food-ordering-app-react-native-part-1/ 
