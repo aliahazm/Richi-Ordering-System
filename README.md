@@ -112,7 +112,7 @@ My Order Page allows users to see the details of their current order in progress
 2.  [MyOrderCard](https://github.com/aliahazm/Richi-Ordering-System/blob/master/app/components/MyOrderCard.js) : This component is created for styling purposes to display the details of past orders.
 
 ### Menu Page
-<img src=https://github.com/aliahazm/Richi-Ordering-System/blob/main/Menu_Category.jpg width=20% height=20%> <img src=https://github.com/aliahazm/Richi-Ordering-System/blob/main/Menu_List.jpg width=20% height=20%>
+<img src=https://github.com/aliahazm/Richi-Ordering-System/blob/main/Menu_Categories.jpg width=20% height=20%> <img src=https://github.com/aliahazm/Richi-Ordering-System/blob/main/Menu_List.jpg width=20% height=20%>
 
 Menu Page allows user to choose which category the user wants to order. When clicked on one of the categories, the user will be able to view the list of menus available and it will also display the list of name and price. Once the user click on one of the listed menu, it will display the button add quantity and the "Order Now" button will redirect to add to cart page and displays the total amount. Finally, the user will click "Place Order" button to send the order to the restaurant. 
 
