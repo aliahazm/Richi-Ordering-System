@@ -10,5 +10,6 @@ export default Object.freeze({
   MENU_CATEGORY: "MenuCategory",
   MY_ACCOUNT: "MyAccount",
   MY_ORDER: "MyOrder",
-  PRODUCT_DETAILS: "ProductDetails"
+  PRODUCT_DETAILS: "ProductDetails",
+  PLACE_ORDER: "PlaceOrder",
 });

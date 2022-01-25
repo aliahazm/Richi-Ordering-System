@@ -16,7 +16,6 @@ import AppButton from "../components/AppButton";
 import Icon from "../components/Icon";
 import AppCard from "../components/AppCard";
 import routes from "../navigation/routes";
-import Map from "../components/Map";
 import DisplayName from "../../components/DisplayName";
 
 function Home({ navigation }) {
@@ -60,11 +59,8 @@ function Home({ navigation }) {
           ></AppButton>
         </ScrollView>
 
-       
-          <TouchableOpacity
-            onPress={() => navigation.navigate(routes.MY_ORDER)}
-          >
-             <View style={{ flexDirection: "row" }}>
+        <TouchableOpacity onPress={() => navigation.navigate(routes.MY_ORDER)}>
+          <View style={{ flexDirection: "row" }}>
             <AppText style={styles.recentTitle}>Recent Orders</AppText>
             <Icon
               name="navigate-next"
@@ -72,9 +68,8 @@ function Home({ navigation }) {
               backgroundColor={colors.backgroundGrey}
               iconColor={colors.greyText}
             />
-            </View>
-          </TouchableOpacity>
-        
+          </View>
+        </TouchableOpacity>
 
         <View style={{ marginHorizontal: 25 }}>
           <AppCard

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   ScrollView,
   SafeAreaView,
@@ -6,22 +6,28 @@ import {
   SectionList,
   Text,
   View,
+  Alert,
 } from "react-native";
 
 import colors from "../config/colors";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { getItems } from "../components/menuItems";
 import { Product } from "../components/Product";
+import routes from "../navigation/routes";
 
-export function ColdBeverageMenu({navigation}) {
-  function renderProduct({item: product}) {
-    return(
-      <Product {...product}
-      onPress={() => {
-        navigation.navigate('ProductDetails', {
-          productId: product.id
-        });
-      }}
+export function ColdBeverageMenu({ navigation }) {
+  function renderProduct({ item: product }) {
+    return (
+      <Product
+        {...product}
+        onPress={
+          () => Alert.alert(product.name + " has been added to cart")
+          // {
+          // navigation.navigate('ProductDetails', {
+          //   productId: product.id
+          // });
+          // }
+        }
       />
     );
   }
@@ -31,7 +37,7 @@ export function ColdBeverageMenu({navigation}) {
   useEffect(() => {
     setProducts(getItems());
   });
-    
+
   return (
     <SafeAreaView
       style={{
@@ -42,24 +48,23 @@ export function ColdBeverageMenu({navigation}) {
       <ScrollView
         style={{
           backgroundColor: colors.backgroundGrey,
-          flex: 1
+          flex: 1,
         }}
       >
-        <View style = {styles.container}>
+        <View style={styles.container}>
           <SectionList
             keyExtractor={(item) => item.id.toString()}
             sections={products}
-            renderItem = {renderProduct}
-            renderSectionHeader = {({section}) => 
-            <Text style={styles.sectionHeader}>{section.title}</Text>}
+            renderItem={renderProduct}
+            renderSectionHeader={({ section }) => (
+              <Text style={styles.sectionHeader}>{section.title}</Text>
+            )}
           />
         </View>
-
       </ScrollView>
-      <View 
-        style= {styles.buttonStyle}
-      >
+      <View style={styles.buttonStyle}>
         <TouchableOpacity
+          onPress={() => navigation.navigate(routes.PLACE_ORDER)}
           style={styles.orderButton}
         >
           <Text style={styles.buttonText}>Order Now</Text>
@@ -132,59 +137,6 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     fontSize: 17,
     color: colors.white,
-  }
+  },
 });
 export default ColdBeverageMenu;
-
-// import React from "react";
-// import { ScrollView, SafeAreaView, StyleSheet, View } from "react-native";
-
-// import colors from "../config/colors";
-// import AppText from "../components/AppText";
-
-// function ColdBeverageMenu(props) {
-//   return (
-//     <SafeAreaView
-//       style={{
-//         backgroundColor: colors.backgroundGrey,
-//         flex: 1,
-//       }}
-//     >
-//       <ScrollView
-//         style={{
-//           backgroundColor: colors.backgroundGrey,
-//           flex: 1,
-//         }}
-//       >
-//         <View
-//           style={{
-//             backgroundColor: colors.backgroundGrey,
-//             alignItems: "center",
-//           }}
-//         >
-//           <AppText style={styles.welcome}>
-//             Welcome, Khairul! Cold Beverage Menu
-//           </AppText>
-//         </View>
-//       </ScrollView>
-//     </SafeAreaView>
-//   );
-// }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     backgroundColor: colors.backgroundGrey,
-//     flex: 1,
-//   },
-
-//   welcome: {
-//     color: colors.white,
-//     fontSize: 30,
-//     fontWeight: "bold",
-//     marginHorizontal: 25,
-//     marginVertical: 10,
-//     justifyContent: "center",
-//     textAlign: "justify",
-//   },
-// });
-// export default ColdBeverageMenu;

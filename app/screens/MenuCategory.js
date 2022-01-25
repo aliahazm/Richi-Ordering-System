@@ -36,12 +36,11 @@ const menuCategory = [
 ];
 
 function MenuCategory({ navigation }) {
-
   return (
     <SafeAreaView
       style={{
         backgroundColor: colors.backgroundGrey,
-        flex: 1
+        flex: 1,
       }}
     >
       <View>
