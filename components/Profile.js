@@ -35,6 +35,7 @@ export default class Profile extends Component {
   render() {
     this.state = {
       displayName: firebase.auth().currentUser.displayName,
+      email: firebase.auth().currentUser.email,
       uid: firebase.auth().currentUser.uid,
     };
     return (
@@ -72,7 +73,7 @@ export default class Profile extends Component {
               borderRadius: 50,
               marginBottom: 20,
             }}
-            placeholder="muna@gmail.com"
+            placeholder={this.state.email}
             placeholderTextColor={colors.white}
             value={this.state.word}
             onChangeText={(word) => this.setState({ word })}
